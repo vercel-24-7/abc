@@ -3,7 +3,7 @@
 "version": "6.0.0",
 "description": "A WhatsApp bot created using Node.js",
 "main": "start.js",
-  "type": "commonjs",
+  "type": "common.js",
   "scripts": {
     "start": "pm2 start start.js --deep-monitoring --attach --name ASITHA-MD",
     "stop": "pm2 stop ASITHA-MD",
